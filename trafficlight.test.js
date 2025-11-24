@@ -1,11 +1,5 @@
-//import module traffic light
-//??
+const traffic = require('./trafficlight');
 
-//test suite
-//??
-    //case red light
-//??
-//??
-//??
-//??
-//??
+test("trafficlight returns green", () => {
+    expect(traffic('green')).toBe('Go');
+})
